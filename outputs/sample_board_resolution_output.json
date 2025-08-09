@@ -1,0 +1,14 @@
+{
+  "file_path": "C:\\Users\\SACHIN~1\\AppData\\Local\\Temp\\tmp40whbk2u.docx",
+  "document_type": "Board Resolution",
+  "confidence": 0.2,
+  "text": "BOARD RESOLUTION\n\n1. MEETING DETAILS\nDate: [TBD]\nTime: [TBD]\nLocation: [TBD]\n2. DIRECTORS PRESENT\nThe following directors were present at the meeting:\n[List of directors to be added]\n3. RESOLUTION\nRESOLVED that the company shall proceed with the incorporation process in accordance with ADGM regulations.\n4. VOTING\nThe resolution was passed unanimously.",
+  "sections": {
+    "BOARD RESOLUTION": "1. MEETING DETAILS\nDate: [TBD]\nTime: [TBD]\nLocation: [TBD]\n2. DIRECTORS PRESENT\nThe following directors were present at the meeting:\n[List of directors to be added]\n3. RESOLUTION\nRESOLVED that the company shall proceed with the incorporation process in accordance with ADGM regulations.\n4. VOTING\nThe resolution was passed unanimously.",
+    "1. MEETING DETAILS": "Date: [TBD]\nTime: [TBD]\nLocation: [TBD]",
+    "2. DIRECTORS PRESENT": "The following directors were present at the meeting:\n[List of directors to be added]",
+    "3. RESOLUTION": "RESOLVED that the company shall proceed with the incorporation process in accordance with ADGM regulations.",
+    "4. VOTING": "The resolution was passed unanimously."
+  },
+  "word_count": 52
+}

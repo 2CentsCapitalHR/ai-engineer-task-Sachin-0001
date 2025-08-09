@@ -46,6 +46,13 @@ class CorporateAgent:
                 # Parse document
                 doc_info = self.parser.parse_document(tmp_path)
                 
+                # --- Save parsed output as JSON ---
+                json_filename = f"{os.path.splitext(uploaded_file.name)[0]}_output.json"
+                json_path = os.path.join("outputs", json_filename)
+                with open(json_path, "w", encoding="utf-8") as f:
+                    json.dump(doc_info, f, indent=2, ensure_ascii=False)
+                # ----------------------------------
+                
                 # Analyze for red flags
                 red_flag_analysis = self.red_flag_checker.analyze_document(
                     doc_info["text"], 
@@ -73,7 +80,8 @@ class CorporateAgent:
                     "word_count": doc_info["word_count"],
                     "red_flag_analysis": red_flag_analysis,
                     "rag_analysis": rag_analysis,
-                    "reviewed_file_path": reviewed_path
+                    "reviewed_file_path": reviewed_path,
+                    "json_output_path": json_path  # Optionally add this for reference
                 }
                 
                 results["documents_analyzed"].append(document_result)

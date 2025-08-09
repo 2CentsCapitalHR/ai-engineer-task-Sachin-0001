@@ -17,7 +17,7 @@ This project is a take-home assignment for the **AI Engineer Intern position at 
 - 💬 Inserts contextual comments with legal references (e.g., ADGM Companies Regulations 2020, Art. 6)
 - 📥 Outputs:
   - Reviewed `.docx` file with comments
-  - Structured `JSON` or `Python` dictionary summary
+  - Structured `JSON` or `Python` dictionary summary inside outputs folder
 
 ---
 
@@ -79,13 +79,7 @@ export GROQ_API_KEY=your_groq_api_key_here
 
 No OpenAI key is required. Embeddings use a local Hugging Face model.
 
-### 4. **Generate Sample Documents (Optional)**
-```bash
-python create_sample_documents.py
-```
-This creates sample `.docx` files in the `examples/` directory for testing.
-
-### 5. **Run the Application**
+### 4. **Run the Application**
 ```bash
 streamlit run app.py
 ```
@@ -96,7 +90,7 @@ The application will open in your browser at `http://localhost:8501`
 
 ## 📥 Inputs
 
-Upload one or more `.docx` files via the UI.
+Upload one or more `.docx` files via the UI(present in examples folder).
 
 ---
 
